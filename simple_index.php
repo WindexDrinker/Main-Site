@@ -4,7 +4,7 @@
 
 	<title>Parukia.NET -- insert cheesy title here</title>
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" type="text/css" href="simple_stylesheet.css">
 
 </head>
 
