@@ -52,7 +52,7 @@ This is another news item.
 </div>
 
 
-</div>
+
 <?php include 'sidebar.php'; ?>
 
 </div>
