@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <title>Parukia.NET -- Insert some cheesy slogan here</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+
+
+
 
 <style>
 
@@ -176,11 +181,15 @@ color:black;  }
 </head>
 <body>
 
+<?php include 'header.php'; ?>
+
 <div id="header">
 <center>
 <img src="http://fc01.deviantart.net/fs70/f/2013/192/8/c/parukia_net_banner_by_xkuyu-d6d295i.png" alt="banner" />
 </center>
 </div>
+
+<?php include 'menu.php'; ?>
 
 <div id="menu">
 
@@ -265,13 +274,14 @@ This is another news item.
 
 
 </div>
-
+<?php include 'sidebar.php'; ?>
 <div id="sidebar">
 Sidebar content goes here.
 <p class="push"></p>
 </div>
 </div>
 
+<?php include 'footer.php'; ?>
 <div class="push"></div>
         </div>
 	<center>
