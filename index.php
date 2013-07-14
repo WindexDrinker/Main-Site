@@ -5,14 +5,12 @@
 <title>Parukia.NET -- Insert some cheesy slogan here</title>
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
 </head>
 <body>
 
 <?php include 'header.php'; ?>
 
 <?php include 'menu.php'; ?>
-
 
 <div id="wrapper">
 <div id="content">
@@ -53,11 +51,42 @@ This is another news item.
 
 
 
+
+</div>
 <?php include 'sidebar.php'; ?>
+<!--
+<div id="sidebar">
+
+<center>
+
+<table border="0" id="eventable">
+<tr>
+<td id="eventablepic"> <div id="nontran"><img src="http://img833.imageshack.us/img833/8061/apzf.png" alt="Meloetta" width="100%"></div>    </td>
+<td id="eventabletex"> <p id="evtext"><b>Pok&#65533;mon Name</b></p>    </td>
+</tr>
+</table>
+
+<img src="http://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/285px-Flag_of_the_United_States.svg.png" height="15%" width="60%" title="America" />
+<br />
+<b>Start/End Date:</b> March 4 - March 24
+<br />
+<b>Where can I get it?:</b> Gamestop
+<br />
+<b>What games is it for?:</b> BW & B2W2
+<br />
+<a href="blah">Other countries this event is taking place in!</a>
+<br />
+</center>
 
 </div>
 
+-->
+</div>
+
 <?php include 'footer.php'; ?>
+
+
+
 
 
 
@@ -70,3 +99,4 @@ This is another news item.
 <!---TO DO LIST:
 
 ADD LINKS IN FOOTER, AS WELL AS DROPDOWN MENU, AND SIDEBAR-->
+  
