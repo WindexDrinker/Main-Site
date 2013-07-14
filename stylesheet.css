@@ -162,3 +162,7 @@ color:black;  }
 #ftex {/*width:70%;*/}
 #sn { }
 #ftext {/*width:70%*/};
+#evtext { font-size:20px; }
+#eventable {width:100%} 
+#eventablepic {width:50%;}
+#eventabletex {width:50%}
