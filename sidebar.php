@@ -1,9 +1,11 @@
 <div id="sidebar">
+
 <center>
-<table border="1" id="eventable">
+
+<table border="0" id="eventable">
 <tr>
 <td id="eventablepic"> <div id="nontran"><img src="http://img833.imageshack.us/img833/8061/apzf.png" alt="Meloetta" width="100%"></div>    </td>
-<td id="eventabletex"> <p id="evtext"><b>Pok�mon Name</b></p>    </td>
+<td id="eventabletex"> <p id="evtext"><b>Pok&#65533;mon Name</b></p>    </td>
 </tr>
 </table>
 
@@ -17,6 +19,6 @@
 <br />
 <a href="blah">Other countries this event is taking place in!</a>
 <br />
+</center>
 
-<p class="push"></p>
 </div>
