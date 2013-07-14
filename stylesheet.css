@@ -1,59 +1,152 @@
-body, html { width:100%; }
+nav {
+	margin: 0px auto; 
+	text-align: center;
+}
 
-body { background:url('http://i44.tinypic.com/fxbcpd.jpg'); 
-       color:white; 
-       font-family:"arial"; }
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+
+nav ul {
+	background: #0000ff; 
+	background: linear-gradient(top, #0000ff 0%, #0000ad 100%);  
+	background: -moz-linear-gradient(top, #0000ff 0%, #0000ad 100%); 
+	background: -webkit-linear-gradient(top, #0000ff 0%, #0000ad 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+        width:75%; 
+        z-index:+1;
+
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left;
+                border-left: 1px solid #000000; position: relative;
+	}
+		nav ul li:hover {
+			background: #00070;
+			background: linear-gradient(top, #000063 0%, #000070 40%);
+			background: -moz-linear-gradient(top, #000063 0%, #000070 40%);
+			background: -webkit-linear-gradient(top, #000063 0%, #000070 40%);
+		}
+			nav ul li:hover a {
+				color: #ffffff;
+			}
+		
+		nav ul li a {
+			display: block; padding: 7px 40px;
+			color: #ffffff; text-decoration: none;
+		}
+			
+		
+	nav ul ul {
+		background: #000063; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%; width:100%;
+	}
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid #000053;
+			border-bottom: 1px solid #00004c; position: relative; 
+		}
+			nav ul ul li a {
+				padding: 7px 40px;
+				color: #fff;
+			}	
+				nav ul ul li a:hover {
+					background: #00004c;
+				}
+		
+	nav ul ul ul {
+		position: absolute; left: 100%; top:0; width:300px;
+	} 
+	nav ul ul ul li {
+		width:100%;
+	}
+
+
+
+ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0; 
+} 
+
+
+body {
+	background:black;
+	font-family: Helvetica, sans-serif; font-size: 12px; line-height: 24px;
+        background:url('http://i44.tinypic.com/fxbcpd.jpg'); 
+}
+
+
+#header {
+width:100%;
+/* background:green; */}
+
+html, body { width:100%; height:100%; }
+
+#menu {width:100% background:yellow; font-size: 18px; }
+
+
+#content {
+/* background:black; */
+color:white;
+width:75%;
+float:left; 
+opacity:1;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+z-index:-1;
+height:50%;
+}
+
 #sidebar {
 background:blue;
-width:15%;
+width:20%;
 height:100%;
 float:right;
 padding:0;
 margins:0; 
 color:white;
 font-family:'Arial'
--webkit-border-top-right-radius: 15px;
--moz-border-radius-topright: 15px;
-border-top-right-radius: 15px;
-opacity:0.6;
-filter:alpha(opacity=60); /* For IE8 and earlier */}
+opacity:1;
+filter:alpha(opacity=100); /* For IE8 and earlier */  
+z-index:-1; 
+padding:0.5%;
+margin-right:2%;  
+border-radius: 15px; 
+background-color:#BDDAF1;
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+color:black;  }
 
-#hte {
-width:95%; }
+#wrapper {width:100%; height:100%;  } 
 
-#content {
-background:black;
-color:white;
-width:85%;
-float:left; 
--webkit-border-top-left-radius: 15px;
--moz-border-radius-topleft: 15px;
-border-top-left-radius: 15px;
-opacity:0.8;
-filter:alpha(opacity=80); /* For IE8 and earlier */
-}
+.push { height:2em; }
 
-#header {
-width=100%;
-float:top;  
-opacity:0.8;
-filter:alpha(opacity=80); /* For IE8 and earlier */
-}
-
-#tex {width:95%;
-      padding:15px;}
-#par {padding-bottom:100px;
-      padding-left:10px;
- }
-
-#wrapper {width:90%;}
-
-#footer {width:100%;
-         background:green;
-         color:white; 
-         border-radius:15px;
-   opacity:0.8;
-	 filter:alpha(opacity=80); /* For IE8 and earlier */}
+#news { width:10% height: 200px; 
+	background:yellow;
+	color:black; 
+	margin-left:2%;
+	margin-right:2%; 
+        padding-top:1%;
+	padding-left:1%;
+	padding-right:1%; 
+        padding-bottom:10%;
+	border-radius: 15px; 
+	background-color:#BDDAF1;
+	opacity:0.7;
+	filter:alpha(opacity=70); /* For IE8 and earlier */ 
+	margin-top: 1%; /*more margin on top???? */ }
 
 .footer {
               width:90%;
@@ -64,6 +157,8 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
               font-family:"Arial";
               color:black; 
               border-radius: 15px; 
-              padding:0.5%;
-
-}
+              padding:1%; }
+#ft {/*width:100%;*/}
+#ftex {/*width:70%;*/}
+#sn { }
+#ftext {/*width:70%*/};
