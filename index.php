@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Parukia.NET -- Insert some cheesy slogan here</title>
+<title>Parukia.NET| The Best Around</title>
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
