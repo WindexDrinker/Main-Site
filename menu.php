@@ -32,7 +32,7 @@
 		</li>
 		<li><a href="#">Competitive Guides</a>
 			<ul>
-				<li><a href="#">Pok�mon Strategy Guides</a></li>
+				<li><a href="#">Pokemon Strategy Guides</a></li>
 				<li><a href="#">Tiers</a></li>
 				<li><a href="#">Battle Simulator</a></li>
 			</ul>
